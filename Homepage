@@ -1,129 +1,85 @@
-<!-- wp:group {"metadata":{"name":"About","patternCategory":"about","patternSubcategory":"","remotePatternId":13377},"align":"full","className":"alignfull is-style-default is-style-section-2","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull is-style-default is-style-section-2" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"24px"}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"level":3,"className":"ai-ignore","fontSize":"small"} -->
-<h3 class="wp-block-heading ai-ignore has-small-font-size"><br>About<br></h3>
-<!-- /wp:heading -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ Interiors | Boutique Interior Design Lagos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">About VJ Interiors</h2>
-<!-- /wp:heading -->
+    <header>
+        <nav>
+            <div class="logo">VJ INTERIORS</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Portfolio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Learn more</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:column -->
+    <section id="about" class="section-alt">
+        <div class="container split-view">
+            <div class="content-left">
+                <span class="subtitle">ABOUT</span>
+                <h1>About VJ Interiors</h1>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="content-right">
+                <p>VJ Interior Designs in Lagos crafts unique, affordable spaces for homes and offices, blending comfort with bold style to fit every budget.</p>
+            </div>
+        </div>
+    </section>
 
-<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>VJ Interior Designs in Lagos crafts unique, affordable spaces for homes and offices, blending comfort with bold style to fit every budget.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+    <section id="services">
+        <div class="container split-view reverse">
+            <div class="content-left">
+                <img src="vj-4.jpeg" alt="Interior Design Service" class="featured-img">
+            </div>
+            <div class="content-right">
+                <h2>Our Services</h2>
+                <p>We offer residential and commercial design, space planning, furniture sourcing, color palettes, and project management to deliver stylish, functional interiors on time.</p>
+                <a href="#" class="btn-outline">View Services</a>
+            </div>
+        </div>
+    </section>
 
-<!-- wp:group {"metadata":{"categories":["services"],"name":"Services","patternName":"assembler/services-4","patternCategory":"services","patternSubcategory":"","remotePatternId":13598},"align":"full","className":"alignfull is-style-section-2","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":36,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-4.jpeg" alt="" class="wp-image-36" style="aspect-ratio:1;object-fit:cover" /></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <img src="vj-1.jpeg" alt="Design 1">
+                <img src="vj-3.jpeg" alt="Design 2">
+                <img src="vj-6.jpeg" alt="Design 3">
+                <img src="vj-7.jpeg" alt="Design 4">
+                <img src="vj-8.jpeg" alt="Design 5">
+            </div>
+        </div>
+    </section>
 
-<!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"align":"wide"} -->
-<h2 class="wp-block-heading alignwide">Our Services</h2>
-<!-- /wp:heading -->
+    <section id="reviews" class="section-alt">
+        <div class="container">
+            <h2 class="center-text">Reviews</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="avatar">PG</div>
+                    <h3>Paulina Godwin</h3>
+                    <p>"VJ Interiors transformed our Lagos apartment with clever space use and warm lighting; the team was professional, on time, and affordable."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">PO</div>
+                    <h3>Peju Oloruntele</h3>
+                    <p>"From concept to completion, the design process was seamless and inspiring; we love the modern yet cozy feel."</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- wp:paragraph {"className":"is-service-description"} -->
-<p class="is-service-description">We offer residential and commercial design, space planning, furniture sourcing, color palettes, and project management to deliver stylish, functional interiors on time.</p>
-<!-- /wp:paragraph -->
+    <footer>
+        <p>&copy; 2026 VJ Interiors Lagos. All rights reserved.</p>
+    </footer>
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-service-link"} -->
-<div class="wp-block-button is-service-link"><a class="wp-block-button__link wp-element-button">View services</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Gallery","patternCategory":"gallery","patternSubcategory":"","remotePatternId":15047},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":39,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-interior-lgo.jpeg" alt="" class="wp-image-39" style="aspect-ratio:3/4;object-fit:cover" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":41,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-7.jpeg?w=768" alt="" class="wp-image-41" /></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":33,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-1.jpeg" alt="" class="wp-image-33" style="aspect-ratio:3/4;object-fit:cover" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":40,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-8.jpeg" alt="" class="wp-image-40" style="aspect-ratio:3/4;object-fit:cover" /></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"className":"is-style-section-1"} -->
-<div class="wp-block-column is-style-section-1"><!-- wp:image {"id":38,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-6.jpeg" alt="" class="wp-image-38" style="aspect-ratio:3/4;object-fit:cover" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":35,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://damilare84bce7beea-sugne.wordpress.com/wp-content/uploads/2026/01/vj-3.jpeg" alt="" class="wp-image-35" /></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Reviews","patternCategory":"testimonials","patternSubcategory":"","remotePatternId":13668},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"center","wideSize":"900px"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center","align":"wide","className":"ai-ignore"} -->
-<h2 class="wp-block-heading alignwide has-text-align-center ai-ignore"><br>Reviews<br></h2>
-<!-- /wp:heading -->
-
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}}}} -->
-<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"380px","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:image {"width":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img alt="" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:60px" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"center","level":3,"className":"is-testimonial-name ai-ignore","fontSize":"small"} -->
-<h3 class="wp-block-heading has-text-align-center is-testimonial-name ai-ignore has-small-font-size"><br>Paulina godwin<br></h3>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
-
-<!-- wp:paragraph {"className":"is-testimonial-review","style":{"typography":{"textAlign":"center"}}} -->
-<p class="has-text-align-center is-testimonial-review">VJ Interiors transformed our Lagos apartment with clever space use and warm lighting; the team was professional, on time, and affordable.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}}}} -->
-<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"380px","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:image {"width":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img alt="" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:60px" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"center","level":3,"className":"is-testimonial-name ai-ignore","fontSize":"small"} -->
-<h3 class="wp-block-heading has-text-align-center is-testimonial-name ai-ignore has-small-font-size"><br>peju oloruntele<br></h3>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
-
-<!-- wp:paragraph {"className":"is-testimonial-review","style":{"typography":{"textAlign":"center"}}} -->
-<p class="has-text-align-center is-testimonial-review">From concept to completion, the design process was seamless and inspiring; we love the modern yet cozy feel.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+</body>
+</html>
